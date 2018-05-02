@@ -1,0 +1,23 @@
+{
+  "name": "fspt-dr-0318-tv-server-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helio-training/fspt-dr-0318-tv-server-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helio-training/fspt-dr-0318-tv-server-demo/issues"
+  },
+  "homepage": "https://github.com/helio-training/fspt-dr-0318-tv-server-demo#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
