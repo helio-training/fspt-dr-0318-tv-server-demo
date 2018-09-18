@@ -20,17 +20,6 @@ app.use((req, res, next) => {
     next()
 })
 
-const inMemoryDatabase = {
-    shows: [
-        {
-            name: 'Trollhunters',
-            rating: 3,
-            previewImage: 'http://cdn03.cdn.justjaredjr.com/wp-content/uploads/headlines/2016/10/trollhunters-poster.jpg'
-        }
-    ]
-}
-
-
 app.get('/shows', async (req, res) => {
     const shows = await showsCollection.find({})
     res.send(shows)
